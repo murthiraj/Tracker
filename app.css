@@ -1,0 +1,259 @@
+/* app css stylesheet */
+
+body {
+  background-color: #222;
+  color: #FFF;
+  font-weight:bold;
+  overflow:auto;
+}
+
+.snap-content {
+  background-color: #EDEDED;
+  color: #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  overflow:auto;
+}
+
+.snap-drawer {
+  color: #FFF;
+}
+
+.drawer-button {
+  display:block;
+  text-decoration:none;
+  color: #FFF;
+  border-right:none;
+  margin: 0px;
+  font-weight: bold;
+  padding: 10px;
+  padding-left:20px;
+}
+
+.overlay {
+  position:absolute;
+  display:none;
+  width:40%;
+  height:200px;;
+  margin-left:30%;
+  margin-right:auto;
+  top:45%;
+  bottom:45%;
+  background-color:#111;
+  z-index:1; 
+  color: #007DA9;
+  text-align:center;
+  border-radius: 10px;
+}
+
+.overlay-box {
+ height:200px;
+ line-height:200px;
+ vertical-align:middle;
+}
+
+.overlay-loader {
+ line-height:200px;
+ vertical-align:middle;
+}
+
+.snapdrawer a:link {
+  color: #FFF;
+}
+
+.snapdrawer a:active {
+  color: #FFF;
+}
+
+.snapdrawer a:visited {
+  color: #FFF;
+}
+
+.snapdrawer a:hover {
+  color: #FFF;
+}
+
+.active-button {
+  background-color: #007DA9;
+}
+
+#top-bar {
+  position:absolute;
+  color: #fff;
+  top:0px;
+  left:0px;
+  margin-right:0px;
+  background-color: #222222;
+  width:100%;
+  overflow:auto;
+}
+
+#top-bar h1 {
+  margin: 10px;
+  margin-left: 0px;
+  float: left;
+  left: 0px;
+  margin-right:0px;
+}
+
+#main-view {
+  background-color: #EDEDED;
+  position:absolute;
+  top:55px;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  overflow:auto;
+}
+
+.header {
+ border-bottom: 2px solid #111;
+ line-height:40px;
+ margin-left:10px;
+ margin-right:10px;
+}
+
+.indented {
+ margin-left:10px;
+}
+
+.login-text {
+ text-align:center;
+ margin-left:auto;
+ margin-right:auto;
+ color: #000;
+}
+
+.registration-text {
+ text-align:center;
+ margin-left:auto;
+ margin-right:auto;
+ color: #000;
+}
+
+#snap-button {
+  border-radius:10px;
+  margin:5px;
+  height:45px;
+  background-color: #007DA9;
+  float:left;
+}
+
+.list-view {
+ margin-left:auto;
+ margin-right:auto;
+ height:99%;
+}
+
+.list-item {
+ display:block;
+ line-height:45px;
+ padding-left:10px;
+ margin-left:auto;
+ margin-right:auto;
+ text-decoration:none;
+ height:45px;
+ border-bottom: 1px solid  #999;
+}
+
+.list-item-borderless {
+ display:block;
+ line-height:45px;
+ padding-left:10px;
+ margin-left:auto;
+ margin-right:auto;
+ text-decoration:none;
+ height:45px;
+}
+
+.list-item:link {
+  color: #000;
+}
+
+.list-item:active {
+  color: #000;
+}
+
+.list-item:visited {
+  color: #000;
+}
+
+.list-item:hover {
+  color: #000;
+}
+
+.list-item-borderless:link {
+  color: #000;
+}
+
+.list-item-borderless:active {
+  color: #000;
+}
+
+.list-item-borderless:visited {
+  color: #000;
+}
+
+.list-item-borderless:hover {
+  color: #000;
+}
+
+
+.ui-button {
+ background-color: #007DA9;
+ border-radius:10px; 
+ padding:10px;
+ color:white;
+ text-align:center;
+}
+
+.centered {
+ margin-left:auto;
+ margin-right:auto;
+}
+
+#map-canvas {
+  margin-left:auto;
+  margin-right:auto;
+  padding: 10px;
+  margin-top: 30px;
+  border: 5px solid #000;
+  border-radius:10px;
+  height: 300px;
+  width: 80%;
+}
+
+#map-message {
+  text-align: center;
+  color: #F00;
+  display: none;
+}
+
+#plus-button {
+  font-size: 2em;
+  margin: 5px;
+  float: right;
+  right: 0px;
+  border: 3px solid;
+  border-radius: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#error-list {
+  display: none;
+}
+
+.red {
+  background-color: #F00;
+}
+
+#profile-image, #vehicle-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* Only some of these buttons should be displayed on a given page */
+#change-vehicle-image-button, #create, #remove {
+  display: none;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Tracker",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murthiraj/Tracker.git"
+  },
+  "dependencies": {
+    "phantom-jasmine": ">=0.2.9"
+  },
+  "scripts": {
+    "test": "phantomjs www/spec/lib/run_jasmine_test.coffee www/spec.html "
+  }
+}
